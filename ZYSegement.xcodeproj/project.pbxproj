@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2092CC3D250384F000ACC76B /* ZYPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2092CC3C250384F000ACC76B /* ZYPageView.swift */; };
+		2092CC402504B37000ACC76B /* ZYSegementTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2092CC3F2504B37000ACC76B /* ZYSegementTitleCell.m */; };
+		4AF9ED5097FAA8AC626F552B /* Pods_ZYSegement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C18B0DBB4F364482925BF7 /* Pods_ZYSegement.framework */; };
 		EA3248C124FE3AF400D01C00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248C024FE3AF400D01C00 /* AppDelegate.swift */; };
 		EA3248C324FE3AF400D01C00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248C224FE3AF400D01C00 /* SceneDelegate.swift */; };
 		EA3248C524FE3AF400D01C00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248C424FE3AF400D01C00 /* ViewController.swift */; };
@@ -15,6 +18,15 @@
 		EA3248CD24FE3AF800D01C00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3248CB24FE3AF800D01C00 /* LaunchScreen.storyboard */; };
 		EA3248D824FE3AF800D01C00 /* ZYSegementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248D724FE3AF800D01C00 /* ZYSegementTests.swift */; };
 		EA3248E324FE3AF800D01C00 /* ZYSegementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248E224FE3AF800D01C00 /* ZYSegementUITests.swift */; };
+		EA3248F124FE3B6000D01C00 /* ZYSegementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248F024FE3B6000D01C00 /* ZYSegementView.swift */; };
+		EA3248F324FE4ADE00D01C00 /* ZYSegmentTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3248F224FE4ADE00D01C00 /* ZYSegmentTitleCell.swift */; };
+		EA3256272502208800F66EF4 /* ZYSegementTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3256262502208800F66EF4 /* ZYSegementTitleView.m */; };
+		EAAA859B2554F11B003D362C /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA859A2554F11B003D362C /* OneViewController.swift */; };
+		EAAA85A02554F12E003D362C /* TwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA859F2554F12E003D362C /* TwoViewController.swift */; };
+		EAAA85A52554F13C003D362C /* ThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA85A42554F13C003D362C /* ThreeViewController.swift */; };
+		EAAA85AB2554F1D2003D362C /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAA85AA2554F1D2003D362C /* OCViewController.m */; };
+		EAAA85B02554F1EB003D362C /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAA85AF2554F1EB003D362C /* SwiftViewController.swift */; };
+		EAFC2FE02505CB5E009771B5 /* ZYPagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFC2FDF2505CB5E009771B5 /* ZYPagesView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2092CC3C250384F000ACC76B /* ZYPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYPageView.swift; sourceTree = "<group>"; };
+		2092CC3E2504B37000ACC76B /* ZYSegementTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSegementTitleCell.h; sourceTree = "<group>"; };
+		2092CC3F2504B37000ACC76B /* ZYSegementTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSegementTitleCell.m; sourceTree = "<group>"; };
+		59C18B0DBB4F364482925BF7 /* Pods_ZYSegement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYSegement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73F851C7B33270AB0EF7514A /* Pods-ZYSegement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSegement.release.xcconfig"; path = "Target Support Files/Pods-ZYSegement/Pods-ZYSegement.release.xcconfig"; sourceTree = "<group>"; };
+		AF4332644AA97B6465DC83A6 /* Pods-ZYSegement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYSegement.debug.xcconfig"; path = "Target Support Files/Pods-ZYSegement/Pods-ZYSegement.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3248BD24FE3AF400D01C00 /* ZYSegement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYSegement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3248C024FE3AF400D01C00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA3248C224FE3AF400D01C00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,20 @@
 		EA3248DE24FE3AF800D01C00 /* ZYSegementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYSegementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3248E224FE3AF800D01C00 /* ZYSegementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSegementUITests.swift; sourceTree = "<group>"; };
 		EA3248E424FE3AF800D01C00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3248F024FE3B6000D01C00 /* ZYSegementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSegementView.swift; sourceTree = "<group>"; };
+		EA3248F224FE4ADE00D01C00 /* ZYSegmentTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZYSegmentTitleCell.swift; sourceTree = "<group>"; };
+		EA3256242502208800F66EF4 /* ZYSegement-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZYSegement-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA3256252502208800F66EF4 /* ZYSegementTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYSegementTitleView.h; sourceTree = "<group>"; };
+		EA3256262502208800F66EF4 /* ZYSegementTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYSegementTitleView.m; sourceTree = "<group>"; };
+		EAAA859A2554F11B003D362C /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		EAAA859F2554F12E003D362C /* TwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewController.swift; sourceTree = "<group>"; };
+		EAAA85A42554F13C003D362C /* ThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeViewController.swift; sourceTree = "<group>"; };
+		EAAA85A92554F1D2003D362C /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		EAAA85AA2554F1D2003D362C /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		EAAA85AF2554F1EB003D362C /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		EAAA85B4255528D4003D362C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAFC2FDE2505CB5E009771B5 /* ZYPagesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYPagesView.h; sourceTree = "<group>"; };
+		EAFC2FDF2505CB5E009771B5 /* ZYPagesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYPagesView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF9ED5097FAA8AC626F552B /* Pods_ZYSegement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +109,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		747F5DAD6D14C27672AE353D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF4332644AA97B6465DC83A6 /* Pods-ZYSegement.debug.xcconfig */,
+				73F851C7B33270AB0EF7514A /* Pods-ZYSegement.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DD1E43F67832FE240B9DB778 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA85B4255528D4003D362C /* SnapKit.framework */,
+				59C18B0DBB4F364482925BF7 /* Pods_ZYSegement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA3248B424FE3AF400D01C00 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +134,9 @@
 				EA3248D624FE3AF800D01C00 /* ZYSegementTests */,
 				EA3248E124FE3AF800D01C00 /* ZYSegementUITests */,
 				EA3248BE24FE3AF400D01C00 /* Products */,
+				EA3256242502208800F66EF4 /* ZYSegement-Bridging-Header.h */,
+				747F5DAD6D14C27672AE353D /* Pods */,
+				DD1E43F67832FE240B9DB778 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +153,9 @@
 		EA3248BF24FE3AF400D01C00 /* ZYSegement */ = {
 			isa = PBXGroup;
 			children = (
+				EAAA85992554F0E8003D362C /* TestController */,
+				EAAA85912554EB1E003D362C /* Swift */,
+				EAAA85902554EB11003D362C /* OC */,
 				EA3248C024FE3AF400D01C00 /* AppDelegate.swift */,
 				EA3248C224FE3AF400D01C00 /* SceneDelegate.swift */,
 				EA3248C424FE3AF400D01C00 /* ViewController.swift */,
@@ -128,6 +185,74 @@
 			path = ZYSegementUITests;
 			sourceTree = "<group>";
 		};
+		EAAA85902554EB11003D362C /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA85932554EB4C003D362C /* viewControllers */,
+				EAAA85922554EB3D003D362C /* Views */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		EAAA85912554EB1E003D362C /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA85952554EB9B003D362C /* ViewControllers */,
+				EAAA85942554EB90003D362C /* Views */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		EAAA85922554EB3D003D362C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA3256252502208800F66EF4 /* ZYSegementTitleView.h */,
+				EA3256262502208800F66EF4 /* ZYSegementTitleView.m */,
+				2092CC3E2504B37000ACC76B /* ZYSegementTitleCell.h */,
+				2092CC3F2504B37000ACC76B /* ZYSegementTitleCell.m */,
+				EAFC2FDE2505CB5E009771B5 /* ZYPagesView.h */,
+				EAFC2FDF2505CB5E009771B5 /* ZYPagesView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAAA85932554EB4C003D362C /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA85A92554F1D2003D362C /* OCViewController.h */,
+				EAAA85AA2554F1D2003D362C /* OCViewController.m */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		EAAA85942554EB90003D362C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA3248F024FE3B6000D01C00 /* ZYSegementView.swift */,
+				EA3248F224FE4ADE00D01C00 /* ZYSegmentTitleCell.swift */,
+				2092CC3C250384F000ACC76B /* ZYPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EAAA85952554EB9B003D362C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA85AF2554F1EB003D362C /* SwiftViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EAAA85992554F0E8003D362C /* TestController */ = {
+			isa = PBXGroup;
+			children = (
+				EAAA859A2554F11B003D362C /* OneViewController.swift */,
+				EAAA859F2554F12E003D362C /* TwoViewController.swift */,
+				EAAA85A42554F13C003D362C /* ThreeViewController.swift */,
+			);
+			path = TestController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA3248E724FE3AF800D01C00 /* Build configuration list for PBXNativeTarget "ZYSegement" */;
 			buildPhases = (
+				018A48A1576860AEFA3102A9 /* [CP] Check Pods Manifest.lock */,
 				EA3248B924FE3AF400D01C00 /* Sources */,
 				EA3248BA24FE3AF400D01C00 /* Frameworks */,
 				EA3248BB24FE3AF400D01C00 /* Resources */,
+				F27D2FC63E3775B7BB7E530F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +323,7 @@
 				TargetAttributes = {
 					EA3248BC24FE3AF400D01C00 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1170;
 					};
 					EA3248D224FE3AF800D01C00 = {
 						CreatedOnToolsVersion = 11.6;
@@ -254,14 +382,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018A48A1576860AEFA3102A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYSegement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F27D2FC63E3775B7BB7E530F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZYSegement/Pods-ZYSegement-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZYSegement/Pods-ZYSegement-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZYSegement/Pods-ZYSegement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EA3248B924FE3AF400D01C00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EA3248C524FE3AF400D01C00 /* ViewController.swift in Sources */,
+				EAAA859B2554F11B003D362C /* OneViewController.swift in Sources */,
+				EA3248F324FE4ADE00D01C00 /* ZYSegmentTitleCell.swift in Sources */,
+				EAAA85AB2554F1D2003D362C /* OCViewController.m in Sources */,
+				EAAA85A52554F13C003D362C /* ThreeViewController.swift in Sources */,
+				EA3248F124FE3B6000D01C00 /* ZYSegementView.swift in Sources */,
+				EAAA85B02554F1EB003D362C /* SwiftViewController.swift in Sources */,
 				EA3248C124FE3AF400D01C00 /* AppDelegate.swift in Sources */,
+				2092CC402504B37000ACC76B /* ZYSegementTitleCell.m in Sources */,
+				2092CC3D250384F000ACC76B /* ZYPageView.swift in Sources */,
+				EAFC2FE02505CB5E009771B5 /* ZYPagesView.m in Sources */,
+				EA3256272502208800F66EF4 /* ZYSegementTitleView.m in Sources */,
 				EA3248C324FE3AF400D01C00 /* SceneDelegate.swift in Sources */,
+				EAAA85A02554F12E003D362C /* TwoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,16 +613,22 @@
 		};
 		EA3248E824FE3AF800D01C00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF4332644AA97B6465DC83A6 /* Pods-ZYSegement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = ZYSegement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sxsmx.ZYSegement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZYSegement-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +636,21 @@
 		};
 		EA3248E924FE3AF800D01C00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73F851C7B33270AB0EF7514A /* Pods-ZYSegement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				INFOPLIST_FILE = ZYSegement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sxsmx.ZYSegement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZYSegement-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
