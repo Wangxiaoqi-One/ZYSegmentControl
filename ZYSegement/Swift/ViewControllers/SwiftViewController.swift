@@ -26,7 +26,7 @@ class SwiftViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = .white
+        self.view.backgroundColor = .gray
         self.edgesForExtendedLayout = UIRectEdge()
         self.navigationController?.navigationBar.isTranslucent = false
         self.view.addSubview(self.tableView)
@@ -34,17 +34,6 @@ class SwiftViewController: UIViewController {
         self.fonts = UIFont.familyNames
         
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
 extension SwiftViewController : UITableViewDataSource, UITableViewDelegate {
